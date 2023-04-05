@@ -1,38 +1,54 @@
 .App {
-  text-align: center;
+ display: flex;
+ flex-direction: column;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.animationLayer {
+
+  background-position: center;
+  background-size: cover;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.animation, .animationLayer{
+  height: 1000px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#artBack{
+  background-image: url(./Images/background.png);
 }
 
-.App-link {
-  color: #61dafb;
+#mountain {
+  background-image: url(./Images/mountains.png);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#logoland {
+  background-image: url(./Images/logo_land.png);
+}
+
+#jungle1 {
+  background-image: url(./Images/jungle1.png);
+}
+
+#jungle2 {
+  background-image: url(./Images/jungle2.png);
+}
+
+#jungle3 {
+  background-image: url(./Images/jungle3.png);
+}
+
+#jungle4 {
+  background-image: url(./Images/jungle4.png);
+}
+
+#jungle5 {
+  background-image: url(./Images/jungle5.png);
+}
+
+#manonmountain {
+  background-image: url(./Images/man_on_mountain.png);
 }
